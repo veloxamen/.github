@@ -1,10 +1,10 @@
-# .github
 # 🛠️ veloxamen Project
 **Next-Generation Cloud-Native Forensic Pipeline**
+
 The name **veloxamen** is a portmanteau of **Velox** (Latin for "swift/fast") and **Examen** (Latin for "examination/investigation"). True to its name, this project aims to automate and accelerate the entire digital forensics workflow leveraging cloud-native architectures.
 
 ---
-ｆ
+
 ### 📋 Project Roadmap
 
 Currently in **Phase 2 (Testing)**. Following a successful PoC on AWS, the project has shifted to Google Cloud Platform (GCP) to achieve higher processing efficiency and deeper integration with BigQuery.
@@ -22,7 +22,7 @@ Currently in **Phase 2 (Testing)**. Following a successful PoC on AWS, the proje
 
 ### 🚀 Core Technologies
 
-*   **Language:** `Go`
+*   **Language:** `Go` 
 *   **Infrastructure:** Google Cloud (Cloud Run Jobs, GCS, BigQuery)
 *   **Forensics:** Plaso (`log2timeline`) and specialized custom parsers.
 
@@ -34,3 +34,9 @@ We minimize manual labor in Incident Response (IR) to allow analysts to focus on
 *   **Speed:** Massive parallel parsing using cloud compute resources.
 *   **Security:** End-to-end encryption for evidence data with secure, automated key orchestration via Cloud KMS within the Cloud Run pipeline.
 *   **Scalability:** A seamless pipeline that handles everything from a single host to large-scale enterprise environments.
+
+---
+
+### 📫 Stay Connected
+
+*   **Feedback & Inquiries:** Please open an **Issue** or join our **Discussions** for any questions or collaboration requests regarding the `veloxamen` project.

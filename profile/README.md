@@ -39,4 +39,4 @@ We minimize manual labor in Incident Response (IR) to allow analysts to focus on
 
 ### 📫 Stay Connected
 
-*   **Feedback & Inquiries:** Please open an **Issue** or join our **Discussions** for any questions or collaboration requests regarding the `veloxamen` project.
+*   **Feedback & Inquiries:** Please open an **Issue** or join our **Discussions** for any questions or collaboration requests regarding `Veloxamen`.

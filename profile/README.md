@@ -16,7 +16,7 @@ Currently in **Phase 2 (Testing)**. Following a successful PoC on AWS, the proje
 *   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Batch (log2timeline/psteal)` -> `BigQuery (Analysis)`
 
 #### **Phase 3: Micro-Parser Distributed Architecture** `[Planning]`
-*   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Cloud Run Jobs * X (Parallel Artifact Parsers)` -> `BigQuery (Triage)` ->  `Vertex AI (Analysis/Insight)` -> `Looker (Visualization)`
+*   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Cloud Run Jobs * X (Parallel Artifact Parsers)` -> `BigQuery (Triage)` ->  `Vertex AI (Insight)` -> `Looker (Analysis)`
 
 ---
 

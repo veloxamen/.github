@@ -1,22 +1,23 @@
-# 🛠️ Veloxamen
+# ⚡ Veloxamen
 **Next-Generation Cloud-Native Forensic Pipeline**
 
-The name **Veloxamen** is a portmanteau of **Velox** (Latin for "swift/fast") and **Examen** (Latin for "examination/investigation"). True to its name, this project aims to automate and accelerate the entire digital forensics workflow leveraging cloud-native architectures.
+The name **Veloxamen** is a portmanteau of **Velox** (Latin for "swift/fast") and **Examen** (Latin for "examination/investigation"). True to its name, this pipeline aims to automate and accelerate the entire digital forensics workflow leveraging cloud-native architectures.
 
 ---
 
-### 📋 Roadmap
-
-Currently in **Phase 2 (Testing)**. Following a successful PoC on AWS, the project has shifted to Google Cloud Platform (GCP) to achieve higher processing efficiency and deeper integration with BigQuery.
+### 🗺️ Roadmap
+Currently in **Phase 3 (Developing)**. Simple ingestions to BigQuery have been completed (may have some improvements), tackling further evolutional improvements.
 
 #### **Phase 1: Local to Cloud Baseline** `[Done]`
 *   **Workflow:** `collector` -> `decryptor` -> `log2timeline/psteal (JSONL)` -> `Timesketch/BigQuery`
 
-#### **Phase 2: Managed Pipeline Optimization** `[Testing, will be done in Sep 2026]`
+#### **Phase 2: Managed Pipeline Optimization** `[Done]`
 *   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Batch (log2timeline/psteal)` -> `BigQuery (Analysis)`
+                                                                                    `GCS (Network)`   -> `Cloud Run Jobs (Parsing)`    -> `BigQuery (Analysis)`
 
-#### **Phase 3: Micro-Parser Distributed Architecture** `[Planning]`
+#### **Phase 3: Micro-Parser Distributed Architecture** `[Developing]`
 *   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Cloud Run Jobs * X (Parallel Artifact Parsers)` -> `BigQuery (Triage)` ->  `Vertex AI (Insight)` -> `Looker (Analysis)`
+    \* Network ingestion will stay almost same but may have some improvements.
 
 ---
 

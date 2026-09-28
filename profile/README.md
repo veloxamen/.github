@@ -1,7 +1,7 @@
 # ⚡ Veloxamen
-**Next-Generation Cloud-Native Forensic Pipeline**
+**Next-Generation Cloud-Native DFIR Pipeline**
 
-The name **Veloxamen** is a portmanteau of **Velox** (Latin for "swift/fast") and **Examen** (Latin for "examination/investigation"). True to its name, this pipeline aims to automate and accelerate the entire digital forensics workflow leveraging cloud-native architectures.
+The name **Veloxamen** is a portmanteau of **Velox** (Latin for "swift/fast") and **Examen** (Latin for "examination/investigation"). True to its name, this pipeline aims to automate and accelerate the entire DFIR (Digital Forensics & Incident Response) workflow leveraging cloud-native architectures.
 
 ---
 
@@ -31,7 +31,7 @@ Currently in **Phase 3 (Developing)**. Simple ingestions to BigQuery have been c
 
 ### 💡 Philosophy: "Automation Freak" Approach
 
-We minimize manual labor in Incident Response (IR) to allow analysts to focus on high-level decision-making.
+We minimize manual labor in DFIR to allow analysts to focus on high-level decision-making.
 *   **Speed:** Massive parallel parsing using cloud compute resources.
 *   **Security:** End-to-end encryption for evidence data with secure, automated key orchestration via Cloud KMS within the Cloud Run pipeline.
 *   **Scalability:** A seamless pipeline that handles everything from a single host to large-scale enterprise environments.

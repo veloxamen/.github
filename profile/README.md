@@ -16,7 +16,7 @@ Currently in **Phase 3 (Developing)**. Simple ingestions to BigQuery have been c
                                                                                     `GCS (Network)`   -> `Cloud Run Jobs (Parsing)`    -> `BigQuery (Analysis)`
 
 #### **Phase 3: Micro-Parser Distributed Architecture** `[Developing]`
-*   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Cloud Run Jobs * X (Parallel Artifact Parsers)` -> `BigQuery (Triage)` ->  `Vertex AI (Insight)` -> `Looker (Analysis)`
+*   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Cloud Run Jobs * X (Parallel Artifact Parsers)` -> `BigQuery (Triage)` ->  `Vertex AI (Insight)` -> `Looker (Analysis)`  
     \* Network ingestion will stay almost same but may have some improvements.
 
 ---

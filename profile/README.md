@@ -12,7 +12,7 @@ Currently in **Phase 3 (Developing)**. Simple ingestions to BigQuery have been c
 *   **Workflow:** `collector` -> `decryptor` -> `log2timeline/psteal (JSONL)` -> `Timesketch/BigQuery`
 
 #### **Phase 2: Managed Pipeline Optimization** `[Done]`
-*   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Batch (log2timeline/psteal)` -> `BigQuery (Analysis)` 
+*   **Workflow:** `collector` -> `GCS (Encrypted)` -> `Cloud Run Jobs (Decrypt)` -> `GCS (Decrypted)` -> `Batch (log2timeline/psteal)` -> `BigQuery (Analysis)`  
                                                                                     `GCS (Network)`   -> `Cloud Run Jobs (Parsing)`    -> `BigQuery (Analysis)`
 
 #### **Phase 3: Micro-Parser Distributed Architecture** `[Developing]`
